@@ -1,0 +1,35 @@
+.accordion-button{
+    background-color: #eee!important;
+    justify-content: center;
+    color: orange;
+}
+
+.accordion-button::after{
+    content: none!important;
+    background-image: none!important;
+}
+
+.accordion-button:not(.collapsed){
+    color: orange;
+}
+
+.accordion-button:focus{
+    border-color: transparent;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.accordion-button:hover{
+    color: #999;
+}
+
+.line{
+    height: 1px;
+    background-color: #eee;
+}
+
+.spacer{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
